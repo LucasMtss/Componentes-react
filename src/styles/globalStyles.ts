@@ -35,11 +35,11 @@ export default createGlobalStyle`
   button,
   textarea,
   select {
-    font: inherit;
+    font-family: 'Poppins', sans-serif;
   }
 
   body, input, button {
-    font: 16px serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   @media (prefers-reduced-motion: reduce) {
