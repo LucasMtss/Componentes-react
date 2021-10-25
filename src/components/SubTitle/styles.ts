@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import colors from '../../styles/colors';
 
 interface IProps {
   bold: boolean;
@@ -10,14 +11,10 @@ export const Text = styled.p<IProps>`
   width: 100%;
   margin-bottom: 1rem;
   font-size: 1.3rem;
-  background: rgb(61, 177, 127);
+  background: ${colors.green};
   font-style: ${(props) => (props.italic ? 'italic' : 'none')};
   font-weight: ${(props) => (props.bold ? 'bold' : 'normal')};
-  background-image: linear-gradient(
-    180deg,
-    rgba(61, 177, 127, 1) 0%,
-    rgba(84, 182, 165, 1) 100%
-  );
+  background-image: linear-gradient(${colors.gradient});
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
