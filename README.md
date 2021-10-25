@@ -1,15 +1,7 @@
-## template react w/ typescript eslint prettier confs
+## Biblioteca de componentes react
 
-dev_
-@priscilaandreani
-
-
-### why?
-
-<p>Because I hate to do it every single time. </p>
-
-
-### tech
+Uma biblioteca que reúne vários componentes react para serem reutilizados em outros projetos e melhorar a produtividade. Fique a vontade para contrubuir!
+### tecnologias
 
 * typescript
 * react
@@ -20,13 +12,9 @@ dev_
 
 * react-router-dom
 * axios
+* react-icons
+* styled-components
+
 
 ---
-
-* Create React App / Typescript
-* EditorConfig
-* Eslint
-* Prettier
-* GlobalStyle reset
-
-#### Do not use with Prettier - Code Formatter extension, it will break.
+#### LucasMtss
