@@ -27,6 +27,7 @@
     "camelcase": [0],
     "react/jsx-one-expression-per-line": [0],
     "react/prop-types": "off",
+    "react/require-default-props": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
