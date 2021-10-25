@@ -1,8 +1,4 @@
 import styled from 'styled-components';
+import { DefaultPage } from '../_DefaultPage';
 
-export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: #333;
-  padding: 1.5rem;
-`;
+export const Container = styled(DefaultPage)``;
